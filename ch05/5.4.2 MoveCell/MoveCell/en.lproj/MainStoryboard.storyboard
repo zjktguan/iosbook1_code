@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2829" systemVersion="12B19" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1914"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView translatesAutoresizingMaskIntoConstraints="NO" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Zmp-je-m2I">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <navigationBar translatesAutoresizingMaskIntoConstraints="NO" contentMode="scaleToFill" id="8eR-Ak-JFt">
+                                <items>
+                                    <navigationItem title="Title" id="vcG-jU-rdT"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8eR-Ak-JFt" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="E9I-xU-GGk"/>
+                            <constraint firstItem="Zmp-je-m2I" firstAttribute="top" secondItem="8eR-Ak-JFt" secondAttribute="bottom" type="default" id="Jb0-SI-LGK"/>
+                            <constraint firstItem="Zmp-je-m2I" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="akG-YP-5px"/>
+                            <constraint firstItem="8eR-Ak-JFt" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="bEL-LM-AP7"/>
+                            <constraint firstItem="Zmp-je-m2I" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="dQR-Lt-VaB"/>
+                            <constraint firstItem="8eR-Ak-JFt" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="jlh-l8-Kyc"/>
+                            <constraint firstItem="Zmp-je-m2I" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="p59-DS-OXq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="navItem" destination="vcG-jU-rdT" id="H8P-3R-JEm"/>
+                        <outlet property="tableView" destination="Zmp-je-m2I" id="GZB-k7-tzm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="navItem" candidateClass="UINavigationItem"/>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

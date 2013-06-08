@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2829" systemVersion="12B19" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1914"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView translatesAutoresizingMaskIntoConstraints="NO" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Bks-3V-JRR">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <navigationBar translatesAutoresizingMaskIntoConstraints="NO" contentMode="scaleToFill" id="OOy-Cr-Qrk">
+                                <items>
+                                    <navigationItem title="Title" id="ml3-LZ-0LL"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OOy-Cr-Qrk" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="2eL-di-iMs"/>
+                            <constraint firstItem="Bks-3V-JRR" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="BZg-hu-hUy"/>
+                            <constraint firstItem="Bks-3V-JRR" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="Ic0-99-iG6"/>
+                            <constraint firstItem="Bks-3V-JRR" firstAttribute="top" secondItem="OOy-Cr-Qrk" secondAttribute="bottom" type="default" id="K5X-LM-0GC"/>
+                            <constraint firstItem="Bks-3V-JRR" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="MdN-Ya-t8q"/>
+                            <constraint firstItem="OOy-Cr-Qrk" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="W46-tN-fI1"/>
+                            <constraint firstItem="OOy-Cr-Qrk" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="Z6Q-ee-wlP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="navgationItem" destination="ml3-LZ-0LL" id="Nak-qW-FW8"/>
+                        <outlet property="tableView" destination="Bks-3V-JRR" id="k3T-TL-nYt"/>
+                        <outlet property="txtField" destination="Y80-bX-dzo" id="zpa-DD-5bG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Add..." minimumFontSize="17" text="" id="Y80-bX-dzo">
+                    <rect key="frame" x="0.0" y="0.0" width="97" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                </textField>
+            </objects>
+            <point key="canvasLocation" x="118" y="22"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="navgationItem" candidateClass="UINavigationItem"/>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="txtField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

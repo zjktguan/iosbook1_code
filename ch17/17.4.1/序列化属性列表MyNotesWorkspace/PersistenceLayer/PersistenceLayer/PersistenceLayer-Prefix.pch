@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PersistenceLayer' target in the 'PersistenceLayer' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

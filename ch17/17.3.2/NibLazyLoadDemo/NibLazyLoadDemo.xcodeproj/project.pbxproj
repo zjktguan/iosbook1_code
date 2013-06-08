@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA7E289A16BBA0F40043C71A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA7E289816BBA0F40043C71A /* icon@2x.png */; };
+		CA7E289B16BBA0F40043C71A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CA7E289916BBA0F40043C71A /* icon.png */; };
+		CAFC756F164B966E00CD4835 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFC756E164B966E00CD4835 /* UIKit.framework */; };
+		CAFC7571164B966E00CD4835 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFC7570164B966E00CD4835 /* Foundation.framework */; };
+		CAFC7573164B966E00CD4835 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFC7572164B966E00CD4835 /* CoreGraphics.framework */; };
+		CAFC7579164B966E00CD4835 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAFC7577164B966E00CD4835 /* InfoPlist.strings */; };
+		CAFC757B164B966E00CD4835 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFC757A164B966E00CD4835 /* main.m */; };
+		CAFC757F164B966E00CD4835 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFC757E164B966E00CD4835 /* AppDelegate.m */; };
+		CAFC7581164B966E00CD4835 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFC7580164B966E00CD4835 /* Default.png */; };
+		CAFC7583164B966E00CD4835 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFC7582164B966E00CD4835 /* Default@2x.png */; };
+		CAFC7585164B966E00CD4835 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFC7584164B966E00CD4835 /* Default-568h@2x.png */; };
+		CAFC7588164B966E00CD4835 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFC7587164B966E00CD4835 /* MainViewController.m */; };
+		CAFC758B164B966E00CD4835 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFC758A164B966E00CD4835 /* FlipsideViewController.m */; };
+		CAFC758E164B966E00CD4835 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAFC758C164B966E00CD4835 /* MainViewController.xib */; };
+		CAFC7591164B966E00CD4835 /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAFC758F164B966E00CD4835 /* FlipsideViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA7E289816BBA0F40043C71A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		CA7E289916BBA0F40043C71A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CAFC756A164B966E00CD4835 /* NibLazyLoadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibLazyLoadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFC756E164B966E00CD4835 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAFC7570164B966E00CD4835 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAFC7572164B966E00CD4835 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAFC7576164B966E00CD4835 /* NibLazyLoadDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NibLazyLoadDemo-Info.plist"; sourceTree = "<group>"; };
+		CAFC7578164B966E00CD4835 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAFC757A164B966E00CD4835 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAFC757C164B966E00CD4835 /* NibLazyLoadDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NibLazyLoadDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CAFC757D164B966E00CD4835 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAFC757E164B966E00CD4835 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAFC7580164B966E00CD4835 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CAFC7582164B966E00CD4835 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CAFC7584164B966E00CD4835 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CAFC7586164B966E00CD4835 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CAFC7587164B966E00CD4835 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CAFC7589164B966E00CD4835 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		CAFC758A164B966E00CD4835 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		CAFC758D164B966E00CD4835 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		CAFC7590164B966E00CD4835 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFC7567164B966E00CD4835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFC756F164B966E00CD4835 /* UIKit.framework in Frameworks */,
+				CAFC7571164B966E00CD4835 /* Foundation.framework in Frameworks */,
+				CAFC7573164B966E00CD4835 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAFC755F164B966E00CD4835 = {
+			isa = PBXGroup;
+			children = (
+				CAFC7574164B966E00CD4835 /* NibLazyLoadDemo */,
+				CAFC756D164B966E00CD4835 /* Frameworks */,
+				CAFC756B164B966E00CD4835 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFC756B164B966E00CD4835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFC756A164B966E00CD4835 /* NibLazyLoadDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFC756D164B966E00CD4835 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAFC756E164B966E00CD4835 /* UIKit.framework */,
+				CAFC7570164B966E00CD4835 /* Foundation.framework */,
+				CAFC7572164B966E00CD4835 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAFC7574164B966E00CD4835 /* NibLazyLoadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CAFC757D164B966E00CD4835 /* AppDelegate.h */,
+				CAFC757E164B966E00CD4835 /* AppDelegate.m */,
+				CAFC7586164B966E00CD4835 /* MainViewController.h */,
+				CAFC7587164B966E00CD4835 /* MainViewController.m */,
+				CAFC7589164B966E00CD4835 /* FlipsideViewController.h */,
+				CAFC758A164B966E00CD4835 /* FlipsideViewController.m */,
+				CAFC758C164B966E00CD4835 /* MainViewController.xib */,
+				CAFC758F164B966E00CD4835 /* FlipsideViewController.xib */,
+				CAFC7575164B966E00CD4835 /* Supporting Files */,
+			);
+			path = NibLazyLoadDemo;
+			sourceTree = "<group>";
+		};
+		CAFC7575164B966E00CD4835 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA7E289816BBA0F40043C71A /* icon@2x.png */,
+				CA7E289916BBA0F40043C71A /* icon.png */,
+				CAFC7576164B966E00CD4835 /* NibLazyLoadDemo-Info.plist */,
+				CAFC7577164B966E00CD4835 /* InfoPlist.strings */,
+				CAFC757A164B966E00CD4835 /* main.m */,
+				CAFC757C164B966E00CD4835 /* NibLazyLoadDemo-Prefix.pch */,
+				CAFC7580164B966E00CD4835 /* Default.png */,
+				CAFC7582164B966E00CD4835 /* Default@2x.png */,
+				CAFC7584164B966E00CD4835 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFC7569164B966E00CD4835 /* NibLazyLoadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFC7594164B966E00CD4835 /* Build configuration list for PBXNativeTarget "NibLazyLoadDemo" */;
+			buildPhases = (
+				CAFC7566164B966E00CD4835 /* Sources */,
+				CAFC7567164B966E00CD4835 /* Frameworks */,
+				CAFC7568164B966E00CD4835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NibLazyLoadDemo;
+			productName = NibLazyLoadDemo;
+			productReference = CAFC756A164B966E00CD4835 /* NibLazyLoadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFC7561164B966E00CD4835 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = tonyguan;
+			};
+			buildConfigurationList = CAFC7564164B966E00CD4835 /* Build configuration list for PBXProject "NibLazyLoadDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAFC755F164B966E00CD4835;
+			productRefGroup = CAFC756B164B966E00CD4835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFC7569164B966E00CD4835 /* NibLazyLoadDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFC7568164B966E00CD4835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFC7579164B966E00CD4835 /* InfoPlist.strings in Resources */,
+				CAFC7581164B966E00CD4835 /* Default.png in Resources */,
+				CAFC7583164B966E00CD4835 /* Default@2x.png in Resources */,
+				CAFC7585164B966E00CD4835 /* Default-568h@2x.png in Resources */,
+				CAFC758E164B966E00CD4835 /* MainViewController.xib in Resources */,
+				CAFC7591164B966E00CD4835 /* FlipsideViewController.xib in Resources */,
+				CA7E289A16BBA0F40043C71A /* icon@2x.png in Resources */,
+				CA7E289B16BBA0F40043C71A /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFC7566164B966E00CD4835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFC757B164B966E00CD4835 /* main.m in Sources */,
+				CAFC757F164B966E00CD4835 /* AppDelegate.m in Sources */,
+				CAFC7588164B966E00CD4835 /* MainViewController.m in Sources */,
+				CAFC758B164B966E00CD4835 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAFC7577164B966E00CD4835 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFC7578164B966E00CD4835 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAFC758C164B966E00CD4835 /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFC758D164B966E00CD4835 /* en */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		CAFC758F164B966E00CD4835 /* FlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFC7590164B966E00CD4835 /* en */,
+			);
+			name = FlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAFC7592164B966E00CD4835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAFC7593164B966E00CD4835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFC7595164B966E00CD4835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NibLazyLoadDemo/NibLazyLoadDemo-Prefix.pch";
+				INFOPLIST_FILE = "NibLazyLoadDemo/NibLazyLoadDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAFC7596164B966E00CD4835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NibLazyLoadDemo/NibLazyLoadDemo-Prefix.pch";
+				INFOPLIST_FILE = "NibLazyLoadDemo/NibLazyLoadDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFC7564164B966E00CD4835 /* Build configuration list for PBXProject "NibLazyLoadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFC7592164B966E00CD4835 /* Debug */,
+				CAFC7593164B966E00CD4835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFC7594164B966E00CD4835 /* Build configuration list for PBXNativeTarget "NibLazyLoadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFC7595164B966E00CD4835 /* Debug */,
+				CAFC7596164B966E00CD4835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFC7561164B966E00CD4835 /* Project object */;
+}

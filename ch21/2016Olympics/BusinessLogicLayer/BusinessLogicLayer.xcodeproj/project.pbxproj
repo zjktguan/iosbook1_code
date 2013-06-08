@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA1B4102165F309F003A8BA5 /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA1B4100165F3098003A8BA5 /* DBConfig.plist */; };
+		CA4303C7165DA3E1000194AB /* EventsBL.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4303C6165DA3E1000194AB /* EventsBL.m */; };
+		CA4303E6165DAAC3000194AB /* ScheduleBL.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4303E5165DAAC3000194AB /* ScheduleBL.m */; };
+		CA430435165DB23D000194AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA430434165DB23D000194AB /* UIKit.framework */; };
+		CA430436165DB23D000194AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACD8B4C165CF4C200AE1E6E /* Foundation.framework */; };
+		CA430438165DB23D000194AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA430437165DB23D000194AB /* CoreGraphics.framework */; };
+		CA43043E165DB23D000194AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA43043C165DB23D000194AB /* InfoPlist.strings */; };
+		CA430440165DB23E000194AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA43043F165DB23D000194AB /* main.m */; };
+		CA430446165DB23E000194AB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA430445165DB23E000194AB /* Default.png */; };
+		CA430448165DB23E000194AB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA430447165DB23E000194AB /* Default@2x.png */; };
+		CA43044A165DB23E000194AB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA430449165DB23E000194AB /* Default-568h@2x.png */; };
+		CA6E4374167830C700D6A292 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6E4373167830C700D6A292 /* QuartzCore.framework */; };
+		CA989CA3165E4A4D003925DD /* libPersistenceLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CACD8C26165CF77C00AE1E6E /* libPersistenceLayer.a */; };
+		CA989CA6165E4BE0003925DD /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CA989CA5165E4BE0003925DD /* libsqlite3.dylib */; };
+		CA989CA7165E4BF7003925DD /* ScheduleBL.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4303E5165DAAC3000194AB /* ScheduleBL.m */; };
+		CA989CA8165E4CB6003925DD /* EventsBL.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4303C6165DA3E1000194AB /* EventsBL.m */; };
+		CA989CAC165E4FDC003925DD /* EventsBLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA989CAB165E4FDC003925DD /* EventsBLTests.m */; };
+		CA989CB6165E52F5003925DD /* create_load.sql in Resources */ = {isa = PBXBuildFile; fileRef = CA989CB5165E52F5003925DD /* create_load.sql */; };
+		CA989CB9165E535C003925DD /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA989CB8165E535C003925DD /* GHUnitIOS.framework */; };
+		CA989CBB165E5597003925DD /* ScheduleBLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA989CBA165E5597003925DD /* ScheduleBLTests.m */; };
+		CA989D36165E817A003925DD /* EventsBL.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4303C5165DA3E1000194AB /* EventsBL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA989D37165E817A003925DD /* ScheduleBL.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4303E4165DAAC3000194AB /* ScheduleBL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CACD8B4D165CF4C200AE1E6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACD8B4C165CF4C200AE1E6E /* Foundation.framework */; };
+		CACD8C27165CF77C00AE1E6E /* libPersistenceLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CACD8C26165CF77C00AE1E6E /* libPersistenceLayer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CACD8B47165CF4C200AE1E6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA1B4100165F3098003A8BA5 /* DBConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig.plist; sourceTree = "<group>"; };
+		CA4303C5165DA3E1000194AB /* EventsBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsBL.h; sourceTree = "<group>"; };
+		CA4303C6165DA3E1000194AB /* EventsBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsBL.m; sourceTree = "<group>"; };
+		CA4303E4165DAAC3000194AB /* ScheduleBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleBL.h; sourceTree = "<group>"; };
+		CA4303E5165DAAC3000194AB /* ScheduleBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleBL.m; sourceTree = "<group>"; };
+		CA430432165DB23D000194AB /* GHUnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHUnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA430434165DB23D000194AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA430437165DB23D000194AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA43043B165DB23D000194AB /* GHUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GHUnitTest-Info.plist"; sourceTree = "<group>"; };
+		CA43043D165DB23D000194AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA43043F165DB23D000194AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA430441165DB23E000194AB /* GHUnitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHUnitTest-Prefix.pch"; sourceTree = "<group>"; };
+		CA430445165DB23E000194AB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CA430447165DB23E000194AB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CA430449165DB23E000194AB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CA6E4373167830C700D6A292 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CA989CA5165E4BE0003925DD /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CA989CAB165E4FDC003925DD /* EventsBLTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsBLTests.m; sourceTree = "<group>"; };
+		CA989CB5165E52F5003925DD /* create_load.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = create_load.sql; sourceTree = "<group>"; };
+		CA989CB8165E535C003925DD /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = ../GHUnitIOS.framework; sourceTree = "<group>"; };
+		CA989CBA165E5597003925DD /* ScheduleBLTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleBLTests.m; sourceTree = "<group>"; };
+		CACD8B49165CF4C200AE1E6E /* libBusinessLogicLayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBusinessLogicLayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACD8B4C165CF4C200AE1E6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CACD8B50165CF4C200AE1E6E /* BusinessLogicLayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BusinessLogicLayer-Prefix.pch"; sourceTree = "<group>"; };
+		CACD8C26165CF77C00AE1E6E /* libPersistenceLayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPersistenceLayer.a; path = "../PersistenceLayer/build/Release-iphoneos/libPersistenceLayer.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA43042F165DB23D000194AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6E4374167830C700D6A292 /* QuartzCore.framework in Frameworks */,
+				CA989CA6165E4BE0003925DD /* libsqlite3.dylib in Frameworks */,
+				CA430435165DB23D000194AB /* UIKit.framework in Frameworks */,
+				CA430436165DB23D000194AB /* Foundation.framework in Frameworks */,
+				CA430438165DB23D000194AB /* CoreGraphics.framework in Frameworks */,
+				CA989CA3165E4A4D003925DD /* libPersistenceLayer.a in Frameworks */,
+				CA989CB9165E535C003925DD /* GHUnitIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACD8B46165CF4C200AE1E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACD8C27165CF77C00AE1E6E /* libPersistenceLayer.a in Frameworks */,
+				CACD8B4D165CF4C200AE1E6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA430439165DB23D000194AB /* GHUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				CA989CAB165E4FDC003925DD /* EventsBLTests.m */,
+				CA989CBA165E5597003925DD /* ScheduleBLTests.m */,
+				CA43043A165DB23D000194AB /* Supporting Files */,
+			);
+			path = GHUnitTest;
+			sourceTree = "<group>";
+		};
+		CA43043A165DB23D000194AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA43043B165DB23D000194AB /* GHUnitTest-Info.plist */,
+				CA43043C165DB23D000194AB /* InfoPlist.strings */,
+				CA43043F165DB23D000194AB /* main.m */,
+				CA430441165DB23E000194AB /* GHUnitTest-Prefix.pch */,
+				CA430445165DB23E000194AB /* Default.png */,
+				CA430447165DB23E000194AB /* Default@2x.png */,
+				CA430449165DB23E000194AB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA989CB4165E52F5003925DD /* DBFile */ = {
+			isa = PBXGroup;
+			children = (
+				CA1B4100165F3098003A8BA5 /* DBConfig.plist */,
+				CA989CB5165E52F5003925DD /* create_load.sql */,
+			);
+			name = DBFile;
+			path = ../DBFile;
+			sourceTree = "<group>";
+		};
+		CACD8B3E165CF4C200AE1E6E = {
+			isa = PBXGroup;
+			children = (
+				CA989CB4165E52F5003925DD /* DBFile */,
+				CACD8B4E165CF4C200AE1E6E /* BusinessLogicLayer */,
+				CA430439165DB23D000194AB /* GHUnitTest */,
+				CACD8B4B165CF4C200AE1E6E /* Frameworks */,
+				CACD8B4A165CF4C200AE1E6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CACD8B4A165CF4C200AE1E6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CACD8B49165CF4C200AE1E6E /* libBusinessLogicLayer.a */,
+				CA430432165DB23D000194AB /* GHUnitTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CACD8B4B165CF4C200AE1E6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA6E4373167830C700D6A292 /* QuartzCore.framework */,
+				CA989CB8165E535C003925DD /* GHUnitIOS.framework */,
+				CA989CA5165E4BE0003925DD /* libsqlite3.dylib */,
+				CACD8C26165CF77C00AE1E6E /* libPersistenceLayer.a */,
+				CACD8B4C165CF4C200AE1E6E /* Foundation.framework */,
+				CA430434165DB23D000194AB /* UIKit.framework */,
+				CA430437165DB23D000194AB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CACD8B4E165CF4C200AE1E6E /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CACD8B4F165CF4C200AE1E6E /* Supporting Files */,
+				CA4303C5165DA3E1000194AB /* EventsBL.h */,
+				CA4303C6165DA3E1000194AB /* EventsBL.m */,
+				CA4303E4165DAAC3000194AB /* ScheduleBL.h */,
+				CA4303E5165DAAC3000194AB /* ScheduleBL.m */,
+			);
+			path = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		CACD8B4F165CF4C200AE1E6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CACD8B50165CF4C200AE1E6E /* BusinessLogicLayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CA989D32165E808F003925DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA989D35165E8173003925DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA989D36165E817A003925DD /* EventsBL.h in Headers */,
+				CA989D37165E817A003925DD /* ScheduleBL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CA430431165DB23D000194AB /* GHUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA43044B165DB23E000194AB /* Build configuration list for PBXNativeTarget "GHUnitTest" */;
+			buildPhases = (
+				CA43042E165DB23D000194AB /* Sources */,
+				CA43042F165DB23D000194AB /* Frameworks */,
+				CA430430165DB23D000194AB /* Resources */,
+				CA989D32165E808F003925DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHUnitTest;
+			productName = GHUnitTest;
+			productReference = CA430432165DB23D000194AB /* GHUnitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CACD8B48165CF4C200AE1E6E /* BusinessLogicLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CACD8B57165CF4C200AE1E6E /* Build configuration list for PBXNativeTarget "BusinessLogicLayer" */;
+			buildPhases = (
+				CACD8B45165CF4C200AE1E6E /* Sources */,
+				CACD8B46165CF4C200AE1E6E /* Frameworks */,
+				CACD8B47165CF4C200AE1E6E /* CopyFiles */,
+				CA989D35165E8173003925DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusinessLogicLayer;
+			productName = BusinessLogicLayer;
+			productReference = CACD8B49165CF4C200AE1E6E /* libBusinessLogicLayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CACD8B40165CF4C200AE1E6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = tonyguan;
+			};
+			buildConfigurationList = CACD8B43165CF4C200AE1E6E /* Build configuration list for PBXProject "BusinessLogicLayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CACD8B3E165CF4C200AE1E6E;
+			productRefGroup = CACD8B4A165CF4C200AE1E6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CACD8B48165CF4C200AE1E6E /* BusinessLogicLayer */,
+				CA430431165DB23D000194AB /* GHUnitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA430430165DB23D000194AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA43043E165DB23D000194AB /* InfoPlist.strings in Resources */,
+				CA430446165DB23E000194AB /* Default.png in Resources */,
+				CA430448165DB23E000194AB /* Default@2x.png in Resources */,
+				CA43044A165DB23E000194AB /* Default-568h@2x.png in Resources */,
+				CA989CB6165E52F5003925DD /* create_load.sql in Resources */,
+				CA1B4102165F309F003A8BA5 /* DBConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA43042E165DB23D000194AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA430440165DB23E000194AB /* main.m in Sources */,
+				CA989CA7165E4BF7003925DD /* ScheduleBL.m in Sources */,
+				CA989CA8165E4CB6003925DD /* EventsBL.m in Sources */,
+				CA989CAC165E4FDC003925DD /* EventsBLTests.m in Sources */,
+				CA989CBB165E5597003925DD /* ScheduleBLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACD8B45165CF4C200AE1E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4303C7165DA3E1000194AB /* EventsBL.m in Sources */,
+				CA4303E6165DAAC3000194AB /* ScheduleBL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA43043C165DB23D000194AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA43043D165DB23D000194AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA43044C165DB23E000194AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)\"",
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHUnitTest/GHUnitTest-Prefix.pch";
+				INFOPLIST_FILE = "GHUnitTest/GHUnitTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA43044D165DB23E000194AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)\"",
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHUnitTest/GHUnitTest-Prefix.pch";
+				INFOPLIST_FILE = "GHUnitTest/GHUnitTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CACD8B55165CF4C200AE1E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CACD8B56165CF4C200AE1E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CACD8B58165CF4C200AE1E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BusinessLogicLayer.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BusinessLogicLayer/BusinessLogicLayer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+			};
+			name = Debug;
+		};
+		CACD8B59165CF4C200AE1E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BusinessLogicLayer.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BusinessLogicLayer/BusinessLogicLayer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA43044B165DB23E000194AB /* Build configuration list for PBXNativeTarget "GHUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA43044C165DB23E000194AB /* Debug */,
+				CA43044D165DB23E000194AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CACD8B43165CF4C200AE1E6E /* Build configuration list for PBXProject "BusinessLogicLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACD8B55165CF4C200AE1E6E /* Debug */,
+				CACD8B56165CF4C200AE1E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CACD8B57165CF4C200AE1E6E /* Build configuration list for PBXNativeTarget "BusinessLogicLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACD8B58165CF4C200AE1E6E /* Debug */,
+				CACD8B59165CF4C200AE1E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CACD8B40165CF4C200AE1E6E /* Project object */;
+}

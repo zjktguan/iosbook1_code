@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA6AF5CA156F50A90084B4F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6AF5C9156F50A90084B4F0 /* UIKit.framework */; };
+		CA6AF5CC156F50A90084B4F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6AF5CB156F50A90084B4F0 /* Foundation.framework */; };
+		CA6AF5CE156F50A90084B4F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6AF5CD156F50A90084B4F0 /* CoreGraphics.framework */; };
+		CA6AF5D4156F50A90084B4F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA6AF5D2156F50A90084B4F0 /* InfoPlist.strings */; };
+		CA6AF5D6156F50A90084B4F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6AF5D5156F50A90084B4F0 /* main.m */; };
+		CA6AF5DA156F50A90084B4F0 /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6AF5D9156F50A90084B4F0 /* HelloWorldAppDelegate.m */; };
+		CA6AF5DD156F50A90084B4F0 /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6AF5DC156F50A90084B4F0 /* HelloWorldViewController.m */; };
+		CA6AF5E0156F50A90084B4F0 /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA6AF5DE156F50A90084B4F0 /* HelloWorldViewController.xib */; };
+		CA6AF5E7156F51B20084B4F0 /* www in Resources */ = {isa = PBXBuildFile; fileRef = CA6AF5E6156F51B20084B4F0 /* www */; };
+		CA6AF5EA156F6E600084B4F0 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6AF5E9156F6E600084B4F0 /* NSString+URLEncoding.m */; };
+		CA7B621016BB9B310061686A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CA7B620E16BB9B310061686A /* icon.png */; };
+		CA7B621116BB9B310061686A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA7B620F16BB9B310061686A /* icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA6AF5C5156F50A90084B4F0 /* MyPhoneGap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPhoneGap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6AF5C9156F50A90084B4F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA6AF5CB156F50A90084B4F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA6AF5CD156F50A90084B4F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA6AF5D1156F50A90084B4F0 /* MyPhoneGap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyPhoneGap-Info.plist"; sourceTree = "<group>"; };
+		CA6AF5D3156F50A90084B4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA6AF5D5156F50A90084B4F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA6AF5D7156F50A90084B4F0 /* MyPhoneGap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPhoneGap-Prefix.pch"; sourceTree = "<group>"; };
+		CA6AF5D8156F50A90084B4F0 /* HelloWorldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldAppDelegate.h; sourceTree = "<group>"; };
+		CA6AF5D9156F50A90084B4F0 /* HelloWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAppDelegate.m; sourceTree = "<group>"; };
+		CA6AF5DB156F50A90084B4F0 /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
+		CA6AF5DC156F50A90084B4F0 /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+		CA6AF5DF156F50A90084B4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloWorldViewController.xib; sourceTree = "<group>"; };
+		CA6AF5E6156F51B20084B4F0 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		CA6AF5E8156F6E600084B4F0 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		CA6AF5E9156F6E600084B4F0 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		CA7B620E16BB9B310061686A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CA7B620F16BB9B310061686A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6AF5C2156F50A90084B4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6AF5CA156F50A90084B4F0 /* UIKit.framework in Frameworks */,
+				CA6AF5CC156F50A90084B4F0 /* Foundation.framework in Frameworks */,
+				CA6AF5CE156F50A90084B4F0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA6AF5BA156F50A90084B4F0 = {
+			isa = PBXGroup;
+			children = (
+				CA6AF5E6156F51B20084B4F0 /* www */,
+				CA6AF5CF156F50A90084B4F0 /* MyPhoneGap */,
+				CA6AF5C8156F50A90084B4F0 /* Frameworks */,
+				CA6AF5C6156F50A90084B4F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6AF5C6156F50A90084B4F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6AF5C5156F50A90084B4F0 /* MyPhoneGap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA6AF5C8156F50A90084B4F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA6AF5C9156F50A90084B4F0 /* UIKit.framework */,
+				CA6AF5CB156F50A90084B4F0 /* Foundation.framework */,
+				CA6AF5CD156F50A90084B4F0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA6AF5CF156F50A90084B4F0 /* MyPhoneGap */ = {
+			isa = PBXGroup;
+			children = (
+				CA6AF5D8156F50A90084B4F0 /* HelloWorldAppDelegate.h */,
+				CA6AF5D9156F50A90084B4F0 /* HelloWorldAppDelegate.m */,
+				CA6AF5DB156F50A90084B4F0 /* HelloWorldViewController.h */,
+				CA6AF5DC156F50A90084B4F0 /* HelloWorldViewController.m */,
+				CA6AF5DE156F50A90084B4F0 /* HelloWorldViewController.xib */,
+				CA6AF5E8156F6E600084B4F0 /* NSString+URLEncoding.h */,
+				CA6AF5E9156F6E600084B4F0 /* NSString+URLEncoding.m */,
+				CA6AF5D0156F50A90084B4F0 /* Supporting Files */,
+			);
+			path = MyPhoneGap;
+			sourceTree = "<group>";
+		};
+		CA6AF5D0156F50A90084B4F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA6AF5D1156F50A90084B4F0 /* MyPhoneGap-Info.plist */,
+				CA6AF5D2156F50A90084B4F0 /* InfoPlist.strings */,
+				CA7B620E16BB9B310061686A /* icon.png */,
+				CA7B620F16BB9B310061686A /* icon@2x.png */,
+				CA6AF5D5156F50A90084B4F0 /* main.m */,
+				CA6AF5D7156F50A90084B4F0 /* MyPhoneGap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6AF5C4156F50A90084B4F0 /* MyPhoneGap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6AF5E3156F50A90084B4F0 /* Build configuration list for PBXNativeTarget "MyPhoneGap" */;
+			buildPhases = (
+				CA6AF5C1156F50A90084B4F0 /* Sources */,
+				CA6AF5C2156F50A90084B4F0 /* Frameworks */,
+				CA6AF5C3156F50A90084B4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPhoneGap;
+			productName = MyPhoneGap;
+			productReference = CA6AF5C5156F50A90084B4F0 /* MyPhoneGap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6AF5BC156F50A90084B4F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HelloWorld;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CA6AF5BF156F50A90084B4F0 /* Build configuration list for PBXProject "MyPhoneGap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA6AF5BA156F50A90084B4F0;
+			productRefGroup = CA6AF5C6156F50A90084B4F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6AF5C4156F50A90084B4F0 /* MyPhoneGap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA6AF5C3156F50A90084B4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6AF5D4156F50A90084B4F0 /* InfoPlist.strings in Resources */,
+				CA6AF5E0156F50A90084B4F0 /* HelloWorldViewController.xib in Resources */,
+				CA6AF5E7156F51B20084B4F0 /* www in Resources */,
+				CA7B621016BB9B310061686A /* icon.png in Resources */,
+				CA7B621116BB9B310061686A /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6AF5C1156F50A90084B4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6AF5D6156F50A90084B4F0 /* main.m in Sources */,
+				CA6AF5DA156F50A90084B4F0 /* HelloWorldAppDelegate.m in Sources */,
+				CA6AF5DD156F50A90084B4F0 /* HelloWorldViewController.m in Sources */,
+				CA6AF5EA156F6E600084B4F0 /* NSString+URLEncoding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA6AF5D2156F50A90084B4F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6AF5D3156F50A90084B4F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA6AF5DE156F50A90084B4F0 /* HelloWorldViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6AF5DF156F50A90084B4F0 /* en */,
+			);
+			name = HelloWorldViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA6AF5E1156F50A90084B4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA6AF5E2156F50A90084B4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6AF5E4156F50A90084B4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPhoneGap/MyPhoneGap-Prefix.pch";
+				INFOPLIST_FILE = "MyPhoneGap/MyPhoneGap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA6AF5E5156F50A90084B4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPhoneGap/MyPhoneGap-Prefix.pch";
+				INFOPLIST_FILE = "MyPhoneGap/MyPhoneGap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6AF5BF156F50A90084B4F0 /* Build configuration list for PBXProject "MyPhoneGap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6AF5E1156F50A90084B4F0 /* Debug */,
+				CA6AF5E2156F50A90084B4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6AF5E3156F50A90084B4F0 /* Build configuration list for PBXNativeTarget "MyPhoneGap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6AF5E4156F50A90084B4F0 /* Debug */,
+				CA6AF5E5156F50A90084B4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA6AF5BC156F50A90084B4F0 /* Project object */;
+}

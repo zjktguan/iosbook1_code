@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="185" y="-151"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aOZ-ca-YN8">
+            <objects>
+                <viewController storyboardIdentifier="page1" id="qBq-Vc-G4Y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7gw-Jq-qdz">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="达芬奇-蒙娜丽莎.png" translatesAutoresizingMaskIntoConstraints="NO" id="KqR-sK-k4H"/>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.4325773986" blue="0.17698591620000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="KqR-sK-k4H" firstAttribute="top" secondItem="7gw-Jq-qdz" secondAttribute="top" type="default" id="8O1-Lo-TsK"/>
+                            <constraint firstItem="KqR-sK-k4H" firstAttribute="leading" secondItem="7gw-Jq-qdz" secondAttribute="leading" type="default" id="RfB-YK-Wym"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cvY-ZM-9HN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="635" y="-163"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yl5-i9-6Cn">
+            <objects>
+                <viewController storyboardIdentifier="page3" id="kSV-0B-MfI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="16w-jk-J6j">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="保罗克利-肖像.png" translatesAutoresizingMaskIntoConstraints="NO" id="mzq-yH-9YS"/>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4978296512" green="0.60742353260000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="mzq-yH-9YS" firstAttribute="leading" secondItem="16w-jk-J6j" secondAttribute="leading" type="default" id="qhq-W1-o2A"/>
+                            <constraint firstItem="mzq-yH-9YS" firstAttribute="top" secondItem="16w-jk-J6j" secondAttribute="top" type="default" id="x37-bF-0TT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CBV-UE-sDw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1005" y="-163"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mhi-2V-Azf">
+            <objects>
+                <viewController storyboardIdentifier="page2" id="bSL-jb-3IV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JCn-iZ-iyC">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="罗丹-思想者.png" translatesAutoresizingMaskIntoConstraints="NO" id="0nj-WC-r4l"/>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.87416886900000002" blue="0.1204975368" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="0nj-WC-r4l" firstAttribute="top" secondItem="JCn-iZ-iyC" secondAttribute="top" type="default" id="Ez9-BY-1Dh"/>
+                            <constraint firstItem="0nj-WC-r4l" firstAttribute="leading" secondItem="JCn-iZ-iyC" secondAttribute="leading" type="default" id="sKq-5A-4m3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dUz-GK-qp6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="635" y="402"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="保罗克利-肖像.png" width="320" height="460"/>
+        <image name="罗丹-思想者.png" width="320" height="460"/>
+        <image name="达芬奇-蒙娜丽莎.png" width="320" height="460"/>
+    </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

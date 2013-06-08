@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Roo-ft-sWl">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Show Modal View">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onclick:" destination="2" eventType="touchUpInside" id="vMU-36-AVA"/>
+                                    <segue destination="z1d-Mh-gyr" kind="modal" modalPresentationStyle="pageSheet" id="f5T-Zy-TCI"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rkx-sR-kIM">
+                                <segments>
+                                    <segment title="Full Screen"/>
+                                    <segment title="Page Sheet"/>
+                                    <segment title="Form Sheet"/>
+                                    <segment title="Current Context"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rkx-sR-kIM" firstAttribute="centerX" secondItem="5" secondAttribute="centerX" type="default" id="82n-V6-5gy"/>
+                            <constraint firstItem="rkx-sR-kIM" firstAttribute="centerX" secondItem="Roo-ft-sWl" secondAttribute="centerX" type="default" id="R7k-ie-wg9"/>
+                            <constraint firstItem="Roo-ft-sWl" firstAttribute="top" secondItem="5" secondAttribute="top" constant="181" id="kZA-T0-c7T"/>
+                            <constraint firstItem="rkx-sR-kIM" firstAttribute="top" secondItem="5" secondAttribute="top" constant="86" id="psS-UB-8nx"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="segControl" destination="rkx-sR-kIM" id="Zbv-lj-Ofi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1086" y="-510"/>
+        </scene>
+        <!--Modal View Controller-->
+        <scene sceneID="QTZ-Kk-XVl">
+            <objects>
+                <viewController storyboardIdentifier="modalViewController" id="z1d-Mh-gyr" customClass="ModalViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oco-ug-uOM">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvE-Pz-VZ1">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qZi-YF-Qyv">
+                                <items>
+                                    <navigationItem title="Modal View" id="PHs-Vg-VHg">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="g0q-gN-jMS">
+                                            <connections>
+                                                <action selector="onclick:" destination="z1d-Mh-gyr" id="X0L-vN-42v"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qZi-YF-Qyv" firstAttribute="trailing" secondItem="oco-ug-uOM" secondAttribute="trailing" type="default" id="4CP-9g-vNL"/>
+                            <constraint firstItem="xvE-Pz-VZ1" firstAttribute="leading" secondItem="oco-ug-uOM" secondAttribute="leading" type="default" id="4nt-rK-pLO"/>
+                            <constraint firstItem="qZi-YF-Qyv" firstAttribute="top" secondItem="oco-ug-uOM" secondAttribute="top" type="default" id="LoO-uA-t9k"/>
+                            <constraint firstItem="xvE-Pz-VZ1" firstAttribute="trailing" secondItem="oco-ug-uOM" secondAttribute="trailing" type="default" id="RQD-u9-NaS"/>
+                            <constraint firstItem="xvE-Pz-VZ1" firstAttribute="bottom" secondItem="oco-ug-uOM" secondAttribute="bottom" type="default" id="dAt-vX-Eh3"/>
+                            <constraint firstItem="xvE-Pz-VZ1" firstAttribute="top" secondItem="qZi-YF-Qyv" secondAttribute="bottom" type="default" id="eM6-Wy-mZ2"/>
+                            <constraint firstItem="qZi-YF-Qyv" firstAttribute="leading" secondItem="oco-ug-uOM" secondAttribute="leading" type="default" id="iR1-j9-C9H"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ogV-gb-C5z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="213" y="-516"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="ModalViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ModalViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="onclick:"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="onclick:"/>
+                <relationship kind="outlet" name="segControl" candidateClass="UISegmentedControl"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

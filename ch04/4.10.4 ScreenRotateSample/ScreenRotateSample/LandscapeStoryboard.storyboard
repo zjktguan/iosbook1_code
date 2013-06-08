@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2829" systemVersion="12B19" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jpG-r3-EMn">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1914"/>
+    </dependencies>
+    <scenes>
+        <!--Landscape View Controller-->
+        <scene sceneID="ilM-Sn-z0h">
+            <objects>
+                <viewController storyboardIdentifier="LandscapeViewController" id="jpG-r3-EMn" customClass="LandscapeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="epg-N0-gI7">
+                        <rect key="frame" x="0.0" y="20" width="480" height="300"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tgz-R8-4xu">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="s9y-fO-MNO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button3">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="m5X-iL-jt4">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="61l-S6-vXg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button1">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3bY-Dn-fhd">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button2">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PNw-Yp-0EY">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button4">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="3bY-Dn-fhd" secondAttribute="bottom" constant="66" id="CTh-CN-Ov3"/>
+                            <constraint firstItem="m5X-iL-jt4" firstAttribute="baseline" secondItem="tgz-R8-4xu" secondAttribute="baseline" type="default" id="GDX-ar-aOi"/>
+                            <constraint firstItem="PNw-Yp-0EY" firstAttribute="trailing" secondItem="tgz-R8-4xu" secondAttribute="trailing" type="default" id="Idq-dk-Pov"/>
+                            <constraint firstItem="PNw-Yp-0EY" firstAttribute="leading" secondItem="tgz-R8-4xu" secondAttribute="leading" type="default" id="aP3-3I-eLG"/>
+                            <constraint firstAttribute="trailing" secondItem="tgz-R8-4xu" secondAttribute="trailing" constant="61" id="d6B-pk-acS"/>
+                            <constraint firstItem="m5X-iL-jt4" firstAttribute="leading" secondItem="epg-N0-gI7" secondAttribute="leading" constant="61" id="eKA-aK-4tS"/>
+                            <constraint firstItem="PNw-Yp-0EY" firstAttribute="baseline" secondItem="3bY-Dn-fhd" secondAttribute="baseline" type="default" id="ftq-Db-74F"/>
+                            <constraint firstItem="m5X-iL-jt4" firstAttribute="leading" secondItem="3bY-Dn-fhd" secondAttribute="leading" type="default" id="oq8-EH-fxq"/>
+                            <constraint firstItem="3bY-Dn-fhd" firstAttribute="trailing" secondItem="m5X-iL-jt4" secondAttribute="trailing" type="default" id="r8l-jj-ifu"/>
+                            <constraint firstItem="m5X-iL-jt4" firstAttribute="top" secondItem="epg-N0-gI7" secondAttribute="top" constant="46" id="vMZ-j7-mCE"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gk0-IA-16h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="126" y="-129"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="LandscapeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LandscapeViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

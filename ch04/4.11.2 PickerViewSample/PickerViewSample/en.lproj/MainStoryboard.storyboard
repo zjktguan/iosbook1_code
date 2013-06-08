@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2829" systemVersion="12B19" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1914"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <pickerView translatesAutoresizingMaskIntoConstraints="NO" contentMode="scaleToFill" id="KSU-Wc-z2R">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="DkX-OI-kaK"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="3" id="zXh-qX-xaK"/>
+                                </connections>
+                            </pickerView>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XfT-dM-x26">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onclick:" destination="2" eventType="touchUpInside" id="spR-IT-HYb"/>
+                                </connections>
+                            </button>
+                            <label translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" text="Label" textAlignment="center" adjustsFontSizeToFit="NO" autoshrinkMode="none" id="s1j-Yj-3h5">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="306" id="XPc-KZ-bM2"/>
+                                    <constraint firstAttribute="height" constant="35" id="yMl-eH-l96"/>
+                                </constraints>
+                                <nil key="highlightedColor"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KSU-Wc-z2R" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="9fH-HK-qw5"/>
+                            <constraint firstAttribute="bottom" secondItem="XfT-dM-x26" secondAttribute="bottom" constant="42" id="CTX-ao-hsC"/>
+                            <constraint firstItem="KSU-Wc-z2R" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="ISh-yi-Riq"/>
+                            <constraint firstItem="s1j-Yj-3h5" firstAttribute="top" secondItem="3" secondAttribute="top" constant="267" id="V1F-3d-aGA"/>
+                            <constraint firstItem="s1j-Yj-3h5" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="alZ-Kn-d56"/>
+                            <constraint firstItem="XfT-dM-x26" firstAttribute="centerX" secondItem="s1j-Yj-3h5" secondAttribute="centerX" type="default" id="bqQ-aW-mhk"/>
+                            <constraint firstItem="KSU-Wc-z2R" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="p0b-wi-YV6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="s1j-Yj-3h5" id="azn-hy-xIB"/>
+                        <outlet property="pickerView" destination="KSU-Wc-z2R" id="uuz-B2-15T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="onclick:"/>
+                <relationship kind="outlet" name="label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="pickerView" candidateClass="UIPickerView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

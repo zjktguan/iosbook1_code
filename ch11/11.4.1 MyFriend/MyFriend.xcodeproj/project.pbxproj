@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CADD88C616266A1A0039A025 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADD88C516266A1A0039A025 /* UIKit.framework */; };
+		CADD88C816266A1A0039A025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADD88C716266A1A0039A025 /* Foundation.framework */; };
+		CADD88CA16266A1A0039A025 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADD88C916266A1A0039A025 /* CoreGraphics.framework */; };
+		CADD88D016266A1A0039A025 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CADD88CE16266A1A0039A025 /* InfoPlist.strings */; };
+		CADD88D216266A1A0039A025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CADD88D116266A1A0039A025 /* main.m */; };
+		CADD88D616266A1A0039A025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CADD88D516266A1A0039A025 /* AppDelegate.m */; };
+		CADD88D816266A1A0039A025 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CADD88D716266A1A0039A025 /* Default.png */; };
+		CADD88DA16266A1A0039A025 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CADD88D916266A1A0039A025 /* Default@2x.png */; };
+		CADD88DC16266A1A0039A025 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CADD88DB16266A1A0039A025 /* Default-568h@2x.png */; };
+		CADD88DF16266A1A0039A025 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADD88DD16266A1A0039A025 /* MainStoryboard.storyboard */; };
+		CADD88E216266A1A0039A025 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CADD88E116266A1A0039A025 /* ViewController.m */; };
+		CADD88EA16266B370039A025 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADD88E816266B370039A025 /* AddressBook.framework */; };
+		CADD88EB16266B370039A025 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADD88E916266B370039A025 /* AddressBookUI.framework */; };
+		CAE631EF16BB9E4300ABCB0F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE631ED16BB9E4300ABCB0F /* icon.png */; };
+		CAE631F016BB9E4300ABCB0F /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE631EE16BB9E4300ABCB0F /* icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CADD88C116266A1A0039A025 /* MyFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADD88C516266A1A0039A025 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CADD88C716266A1A0039A025 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CADD88C916266A1A0039A025 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CADD88CD16266A1A0039A025 /* MyFriend-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFriend-Info.plist"; sourceTree = "<group>"; };
+		CADD88CF16266A1A0039A025 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CADD88D116266A1A0039A025 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CADD88D316266A1A0039A025 /* MyFriend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFriend-Prefix.pch"; sourceTree = "<group>"; };
+		CADD88D416266A1A0039A025 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CADD88D516266A1A0039A025 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CADD88D716266A1A0039A025 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CADD88D916266A1A0039A025 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CADD88DB16266A1A0039A025 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CADD88DE16266A1A0039A025 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CADD88E016266A1A0039A025 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CADD88E116266A1A0039A025 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CADD88E816266B370039A025 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		CADD88E916266B370039A025 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		CAE631ED16BB9E4300ABCB0F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CAE631EE16BB9E4300ABCB0F /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CADD88BE16266A1A0039A025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADD88EA16266B370039A025 /* AddressBook.framework in Frameworks */,
+				CADD88EB16266B370039A025 /* AddressBookUI.framework in Frameworks */,
+				CADD88C616266A1A0039A025 /* UIKit.framework in Frameworks */,
+				CADD88C816266A1A0039A025 /* Foundation.framework in Frameworks */,
+				CADD88CA16266A1A0039A025 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CADD88B616266A1A0039A025 = {
+			isa = PBXGroup;
+			children = (
+				CADD88CB16266A1A0039A025 /* MyFriend */,
+				CADD88C416266A1A0039A025 /* Frameworks */,
+				CADD88C216266A1A0039A025 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CADD88C216266A1A0039A025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CADD88C116266A1A0039A025 /* MyFriend.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CADD88C416266A1A0039A025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CADD88E816266B370039A025 /* AddressBook.framework */,
+				CADD88E916266B370039A025 /* AddressBookUI.framework */,
+				CADD88C516266A1A0039A025 /* UIKit.framework */,
+				CADD88C716266A1A0039A025 /* Foundation.framework */,
+				CADD88C916266A1A0039A025 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CADD88CB16266A1A0039A025 /* MyFriend */ = {
+			isa = PBXGroup;
+			children = (
+				CADD88D416266A1A0039A025 /* AppDelegate.h */,
+				CADD88D516266A1A0039A025 /* AppDelegate.m */,
+				CADD88DD16266A1A0039A025 /* MainStoryboard.storyboard */,
+				CADD88E016266A1A0039A025 /* ViewController.h */,
+				CADD88E116266A1A0039A025 /* ViewController.m */,
+				CADD88CC16266A1A0039A025 /* Supporting Files */,
+			);
+			path = MyFriend;
+			sourceTree = "<group>";
+		};
+		CADD88CC16266A1A0039A025 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE631ED16BB9E4300ABCB0F /* icon.png */,
+				CAE631EE16BB9E4300ABCB0F /* icon@2x.png */,
+				CADD88CD16266A1A0039A025 /* MyFriend-Info.plist */,
+				CADD88CE16266A1A0039A025 /* InfoPlist.strings */,
+				CADD88D116266A1A0039A025 /* main.m */,
+				CADD88D316266A1A0039A025 /* MyFriend-Prefix.pch */,
+				CADD88D716266A1A0039A025 /* Default.png */,
+				CADD88D916266A1A0039A025 /* Default@2x.png */,
+				CADD88DB16266A1A0039A025 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CADD88C016266A1A0039A025 /* MyFriend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADD88E516266A1A0039A025 /* Build configuration list for PBXNativeTarget "MyFriend" */;
+			buildPhases = (
+				CADD88BD16266A1A0039A025 /* Sources */,
+				CADD88BE16266A1A0039A025 /* Frameworks */,
+				CADD88BF16266A1A0039A025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFriend;
+			productName = MyFriend;
+			productReference = CADD88C116266A1A0039A025 /* MyFriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CADD88B816266A1A0039A025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = tonyguan;
+			};
+			buildConfigurationList = CADD88BB16266A1A0039A025 /* Build configuration list for PBXProject "MyFriend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CADD88B616266A1A0039A025;
+			productRefGroup = CADD88C216266A1A0039A025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CADD88C016266A1A0039A025 /* MyFriend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CADD88BF16266A1A0039A025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADD88D016266A1A0039A025 /* InfoPlist.strings in Resources */,
+				CADD88D816266A1A0039A025 /* Default.png in Resources */,
+				CADD88DA16266A1A0039A025 /* Default@2x.png in Resources */,
+				CADD88DC16266A1A0039A025 /* Default-568h@2x.png in Resources */,
+				CADD88DF16266A1A0039A025 /* MainStoryboard.storyboard in Resources */,
+				CAE631EF16BB9E4300ABCB0F /* icon.png in Resources */,
+				CAE631F016BB9E4300ABCB0F /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CADD88BD16266A1A0039A025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADD88D216266A1A0039A025 /* main.m in Sources */,
+				CADD88D616266A1A0039A025 /* AppDelegate.m in Sources */,
+				CADD88E216266A1A0039A025 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CADD88CE16266A1A0039A025 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADD88CF16266A1A0039A025 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CADD88DD16266A1A0039A025 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADD88DE16266A1A0039A025 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CADD88E316266A1A0039A025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CADD88E416266A1A0039A025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CADD88E616266A1A0039A025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFriend/MyFriend-Prefix.pch";
+				INFOPLIST_FILE = "MyFriend/MyFriend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CADD88E716266A1A0039A025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFriend/MyFriend-Prefix.pch";
+				INFOPLIST_FILE = "MyFriend/MyFriend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CADD88BB16266A1A0039A025 /* Build configuration list for PBXProject "MyFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADD88E316266A1A0039A025 /* Debug */,
+				CADD88E416266A1A0039A025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADD88E516266A1A0039A025 /* Build configuration list for PBXNativeTarget "MyFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADD88E616266A1A0039A025 /* Debug */,
+				CADD88E716266A1A0039A025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CADD88B816266A1A0039A025 /* Project object */;
+}

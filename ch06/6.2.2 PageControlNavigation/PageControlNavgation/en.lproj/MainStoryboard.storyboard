@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="7w0-2P-mzS">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="RkS-wN-RDE"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="changePage:" destination="2" eventType="valueChanged" id="Mvb-ik-VJr"/>
+                                </connections>
+                            </pageControl>
+                            <scrollView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U85-ie-bOZ">
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="U85-ie-bOZ" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="5dh-tA-xWV"/>
+                            <constraint firstItem="U85-ie-bOZ" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="B4R-FM-nsV"/>
+                            <constraint firstItem="7w0-2P-mzS" firstAttribute="centerX" secondItem="U85-ie-bOZ" secondAttribute="centerX" type="default" id="LHn-CY-RDT"/>
+                            <constraint firstItem="7w0-2P-mzS" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="ham-CD-7xF"/>
+                            <constraint firstItem="U85-ie-bOZ" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="jzf-mM-ifc"/>
+                            <constraint firstAttribute="bottom" secondItem="U85-ie-bOZ" secondAttribute="bottom" constant="40" id="m3V-kZ-nvU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="7w0-2P-mzS" id="29l-RX-m3L"/>
+                        <outlet property="scrollView" destination="U85-ie-bOZ" id="qmL-qf-KhK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47" y="70"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jD2-Wk-c06">
+            <objects>
+                <viewController storyboardIdentifier="page1" id="nLm-Xp-eS3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0nJ-Lk-rBa">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="达芬奇-蒙娜丽莎.png" translatesAutoresizingMaskIntoConstraints="NO" id="YQV-fV-XuJ"/>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.4325773986472834" blue="0.17698591619821336" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="YQV-fV-XuJ" firstAttribute="leading" secondItem="0nJ-Lk-rBa" secondAttribute="leading" type="default" id="2o9-KC-oee"/>
+                            <constraint firstItem="YQV-fV-XuJ" firstAttribute="top" secondItem="0nJ-Lk-rBa" secondAttribute="top" type="default" id="fZ8-Ok-SZZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Zs-SK-U9d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="489" y="59"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hzr-B7-Q2d">
+            <objects>
+                <viewController storyboardIdentifier="page2" id="2LT-Lh-eOy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vrg-NL-4Hs">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="罗丹-思想者.png" translatesAutoresizingMaskIntoConstraints="NO" id="oOX-HD-zUS"/>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.87416886900000002" blue="0.1204975368" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="oOX-HD-zUS" firstAttribute="leading" secondItem="vrg-NL-4Hs" secondAttribute="leading" type="default" id="co0-dc-0Fe"/>
+                            <constraint firstItem="oOX-HD-zUS" firstAttribute="top" secondItem="vrg-NL-4Hs" secondAttribute="top" type="default" id="tbI-Y4-XeL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DY8-KA-rhn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="489" y="625"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Rnk-Aa-e1W">
+            <objects>
+                <viewController storyboardIdentifier="page3" id="mTH-Fk-VoZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dj6-xS-ltL">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="保罗克利-肖像.png" translatesAutoresizingMaskIntoConstraints="NO" id="dxU-uc-bmR"/>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4978296512" green="0.60742353260000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="dxU-uc-bmR" firstAttribute="top" secondItem="dj6-xS-ltL" secondAttribute="top" type="default" id="4uk-WA-Az1"/>
+                            <constraint firstItem="dxU-uc-bmR" firstAttribute="leading" secondItem="dj6-xS-ltL" secondAttribute="leading" type="default" id="hAP-Dp-GAa"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3zN-3P-NH1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="859" y="59"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="保罗克利-肖像.png" width="320" height="460"/>
+        <image name="罗丹-思想者.png" width="320" height="460"/>
+        <image name="达芬奇-蒙娜丽莎.png" width="320" height="460"/>
+    </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="changePage:"/>
+                <relationship kind="outlet" name="pageControl" candidateClass="UIPageControl"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

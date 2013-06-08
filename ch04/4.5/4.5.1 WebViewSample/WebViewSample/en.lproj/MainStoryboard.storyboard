@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2829" systemVersion="12B19" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1914"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="olR-d5-02p">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="107" id="PYo-Ze-tbH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <state key="normal" title="loadHTMLString">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="testLoadHTMLString:" destination="2" eventType="touchUpInside" id="wP1-rJ-4bW"/>
+                                </connections>
+                            </button>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="T0B-a0-PLI">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <state key="normal" title="loadRequest">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="testLoadRequest:" destination="2" eventType="touchUpInside" id="yOH-md-Dxi"/>
+                                </connections>
+                            </button>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dIJ-4Q-dnT">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="83" id="oGP-C1-MTO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <state key="normal" title="loadData">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="testLoadData:" destination="2" eventType="touchUpInside" id="k5g-fb-QuH"/>
+                                </connections>
+                            </button>
+                            <webView translatesAutoresizingMaskIntoConstraints="NO" contentMode="scaleToFill" id="B7P-06-rHg">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="403" id="MfT-CO-PWd"/>
+                                </constraints>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="olR-d5-02p" firstAttribute="top" secondItem="3" secondAttribute="top" constant="12" id="4oM-kd-neo"/>
+                            <constraint firstItem="dIJ-4Q-dnT" firstAttribute="baseline" secondItem="olR-d5-02p" secondAttribute="baseline" type="default" id="EeP-9D-djm"/>
+                            <constraint firstAttribute="trailing" secondItem="T0B-a0-PLI" secondAttribute="trailing" constant="7" id="Hzk-TI-paf"/>
+                            <constraint firstItem="dIJ-4Q-dnT" firstAttribute="leading" secondItem="olR-d5-02p" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="OU3-kt-sKe"/>
+                            <constraint firstItem="dIJ-4Q-dnT" firstAttribute="centerX" secondItem="B7P-06-rHg" secondAttribute="centerX" type="default" id="Skv-8M-5lM"/>
+                            <constraint firstItem="B7P-06-rHg" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="ibG-W8-hzh"/>
+                            <constraint firstItem="B7P-06-rHg" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="j2c-4z-MeE"/>
+                            <constraint firstItem="B7P-06-rHg" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="pa6-ID-0sI"/>
+                            <constraint firstItem="dIJ-4Q-dnT" firstAttribute="baseline" secondItem="T0B-a0-PLI" secondAttribute="baseline" type="default" id="wa1-sr-HwU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="B7P-06-rHg" id="k7S-tj-LbX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456" y="50"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

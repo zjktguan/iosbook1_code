@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA7E28A316BBA0FF0043C71A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA7E28A116BBA0FF0043C71A /* icon@2x.png */; };
+		CA7E28A416BBA0FF0043C71A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CA7E28A216BBA0FF0043C71A /* icon.png */; };
+		CAFC75A7164B967F00CD4835 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFC75A6164B967F00CD4835 /* UIKit.framework */; };
+		CAFC75A9164B967F00CD4835 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFC75A8164B967F00CD4835 /* Foundation.framework */; };
+		CAFC75AB164B967F00CD4835 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFC75AA164B967F00CD4835 /* CoreGraphics.framework */; };
+		CAFC75B1164B967F00CD4835 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAFC75AF164B967F00CD4835 /* InfoPlist.strings */; };
+		CAFC75B3164B967F00CD4835 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFC75B2164B967F00CD4835 /* main.m */; };
+		CAFC75B7164B967F00CD4835 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFC75B6164B967F00CD4835 /* AppDelegate.m */; };
+		CAFC75B9164B967F00CD4835 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFC75B8164B967F00CD4835 /* Default.png */; };
+		CAFC75BB164B967F00CD4835 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFC75BA164B967F00CD4835 /* Default@2x.png */; };
+		CAFC75BD164B967F00CD4835 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFC75BC164B967F00CD4835 /* Default-568h@2x.png */; };
+		CAFC75C0164B967F00CD4835 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFC75BE164B967F00CD4835 /* MainStoryboard.storyboard */; };
+		CAFC75C3164B967F00CD4835 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFC75C2164B967F00CD4835 /* MainViewController.m */; };
+		CAFC75C6164B967F00CD4835 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFC75C5164B967F00CD4835 /* FlipsideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA7E28A116BBA0FF0043C71A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		CA7E28A216BBA0FF0043C71A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CAFC75A2164B967F00CD4835 /* StroyboardLazyLoadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StroyboardLazyLoadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFC75A6164B967F00CD4835 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAFC75A8164B967F00CD4835 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAFC75AA164B967F00CD4835 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAFC75AE164B967F00CD4835 /* StroyboardLazyLoadDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StroyboardLazyLoadDemo-Info.plist"; sourceTree = "<group>"; };
+		CAFC75B0164B967F00CD4835 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAFC75B2164B967F00CD4835 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAFC75B4164B967F00CD4835 /* StroyboardLazyLoadDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StroyboardLazyLoadDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CAFC75B5164B967F00CD4835 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAFC75B6164B967F00CD4835 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAFC75B8164B967F00CD4835 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CAFC75BA164B967F00CD4835 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CAFC75BC164B967F00CD4835 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CAFC75BF164B967F00CD4835 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CAFC75C1164B967F00CD4835 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CAFC75C2164B967F00CD4835 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CAFC75C4164B967F00CD4835 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		CAFC75C5164B967F00CD4835 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFC759F164B967F00CD4835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFC75A7164B967F00CD4835 /* UIKit.framework in Frameworks */,
+				CAFC75A9164B967F00CD4835 /* Foundation.framework in Frameworks */,
+				CAFC75AB164B967F00CD4835 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAFC7597164B967F00CD4835 = {
+			isa = PBXGroup;
+			children = (
+				CAFC75AC164B967F00CD4835 /* StroyboardLazyLoadDemo */,
+				CAFC75A5164B967F00CD4835 /* Frameworks */,
+				CAFC75A3164B967F00CD4835 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFC75A3164B967F00CD4835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFC75A2164B967F00CD4835 /* StroyboardLazyLoadDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFC75A5164B967F00CD4835 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAFC75A6164B967F00CD4835 /* UIKit.framework */,
+				CAFC75A8164B967F00CD4835 /* Foundation.framework */,
+				CAFC75AA164B967F00CD4835 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAFC75AC164B967F00CD4835 /* StroyboardLazyLoadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CAFC75B5164B967F00CD4835 /* AppDelegate.h */,
+				CAFC75B6164B967F00CD4835 /* AppDelegate.m */,
+				CAFC75BE164B967F00CD4835 /* MainStoryboard.storyboard */,
+				CAFC75C1164B967F00CD4835 /* MainViewController.h */,
+				CAFC75C2164B967F00CD4835 /* MainViewController.m */,
+				CAFC75C4164B967F00CD4835 /* FlipsideViewController.h */,
+				CAFC75C5164B967F00CD4835 /* FlipsideViewController.m */,
+				CAFC75AD164B967F00CD4835 /* Supporting Files */,
+			);
+			path = StroyboardLazyLoadDemo;
+			sourceTree = "<group>";
+		};
+		CAFC75AD164B967F00CD4835 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA7E28A116BBA0FF0043C71A /* icon@2x.png */,
+				CA7E28A216BBA0FF0043C71A /* icon.png */,
+				CAFC75AE164B967F00CD4835 /* StroyboardLazyLoadDemo-Info.plist */,
+				CAFC75AF164B967F00CD4835 /* InfoPlist.strings */,
+				CAFC75B2164B967F00CD4835 /* main.m */,
+				CAFC75B4164B967F00CD4835 /* StroyboardLazyLoadDemo-Prefix.pch */,
+				CAFC75B8164B967F00CD4835 /* Default.png */,
+				CAFC75BA164B967F00CD4835 /* Default@2x.png */,
+				CAFC75BC164B967F00CD4835 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFC75A1164B967F00CD4835 /* StroyboardLazyLoadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFC75C9164B967F00CD4835 /* Build configuration list for PBXNativeTarget "StroyboardLazyLoadDemo" */;
+			buildPhases = (
+				CAFC759E164B967F00CD4835 /* Sources */,
+				CAFC759F164B967F00CD4835 /* Frameworks */,
+				CAFC75A0164B967F00CD4835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StroyboardLazyLoadDemo;
+			productName = StroyboardLazyLoadDemo;
+			productReference = CAFC75A2164B967F00CD4835 /* StroyboardLazyLoadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFC7599164B967F00CD4835 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = tonyguan;
+			};
+			buildConfigurationList = CAFC759C164B967F00CD4835 /* Build configuration list for PBXProject "StroyboardLazyLoadDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAFC7597164B967F00CD4835;
+			productRefGroup = CAFC75A3164B967F00CD4835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFC75A1164B967F00CD4835 /* StroyboardLazyLoadDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFC75A0164B967F00CD4835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFC75B1164B967F00CD4835 /* InfoPlist.strings in Resources */,
+				CAFC75B9164B967F00CD4835 /* Default.png in Resources */,
+				CAFC75BB164B967F00CD4835 /* Default@2x.png in Resources */,
+				CAFC75BD164B967F00CD4835 /* Default-568h@2x.png in Resources */,
+				CAFC75C0164B967F00CD4835 /* MainStoryboard.storyboard in Resources */,
+				CA7E28A316BBA0FF0043C71A /* icon@2x.png in Resources */,
+				CA7E28A416BBA0FF0043C71A /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFC759E164B967F00CD4835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFC75B3164B967F00CD4835 /* main.m in Sources */,
+				CAFC75B7164B967F00CD4835 /* AppDelegate.m in Sources */,
+				CAFC75C3164B967F00CD4835 /* MainViewController.m in Sources */,
+				CAFC75C6164B967F00CD4835 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAFC75AF164B967F00CD4835 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFC75B0164B967F00CD4835 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAFC75BE164B967F00CD4835 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFC75BF164B967F00CD4835 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAFC75C7164B967F00CD4835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAFC75C8164B967F00CD4835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFC75CA164B967F00CD4835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StroyboardLazyLoadDemo/StroyboardLazyLoadDemo-Prefix.pch";
+				INFOPLIST_FILE = "StroyboardLazyLoadDemo/StroyboardLazyLoadDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAFC75CB164B967F00CD4835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StroyboardLazyLoadDemo/StroyboardLazyLoadDemo-Prefix.pch";
+				INFOPLIST_FILE = "StroyboardLazyLoadDemo/StroyboardLazyLoadDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFC759C164B967F00CD4835 /* Build configuration list for PBXProject "StroyboardLazyLoadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFC75C7164B967F00CD4835 /* Debug */,
+				CAFC75C8164B967F00CD4835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFC75C9164B967F00CD4835 /* Build configuration list for PBXNativeTarget "StroyboardLazyLoadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFC75CA164B967F00CD4835 /* Debug */,
+				CAFC75CB164B967F00CD4835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFC7599164B967F00CD4835 /* Project object */;
+}
